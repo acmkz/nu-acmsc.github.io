@@ -58,7 +58,7 @@
     --color-success        : hsla(76, 69%, 68%, 1);
     --color-info           : hsla(205, 82%, 91%, 1);
     --color-notice         : hsla(51, 100%, 80%, 1);
-    --color-error-content  : hsla(359, 50%, 50%, 1);
+    --color-error-content  : hsla(123, 50%, 50%, 1);
     --color-success-content: hsla(76, 29%, 28%, 1);
     --color-info-content   : hsla(205, 32%, 31%, 1);
     --color-notice-content : hsla(51, 30%, 30%, 1);
@@ -1767,7 +1767,7 @@ abbr[title], dfn[title] {
 
 mark {
     background: var(--color-3);
-    color: black;
+    color: silver;
 }
 
 hr {
@@ -4476,7 +4476,7 @@ html.no-csstransitions .s-hero__content {
 .s-contact__email {
     margin-top: var(--vspace-1_5);
     font-family: var(--font-2);
-    font-size: calc(var(--text-size) * 6.6);
+    font-size: 100px;
     font-weight: 500;
     letter-spacing: -0.01em;
     line-height: 1;

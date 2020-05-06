@@ -69,7 +69,7 @@
      * (https://maketintsandshades.com/)
      */
     --color-black  : #000000;
-    --color-gray-19: #0b0b0c;
+    --color-gray-19: #FF6969;
     --color-gray-18: #161719;
     --color-gray-17: #202225;
     --color-gray-16: #2b2e32;
@@ -3038,7 +3038,7 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky {
-    background-color: var(--color-gray-19);
+    background-color: var(--color-gray-18);
     opacity: 0;
     visibility: hidden;
     position: fixed;
@@ -3091,8 +3091,9 @@ input::-moz-focus-inner {
 
 .s-header__logo img {
     width: 102px;
-    height: 15px;
+    height: 80px;
     margin-bottom: 0;
+    object-fit: contain;
 }
 
 

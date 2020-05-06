@@ -3269,9 +3269,9 @@ input::-moz-focus-inner {
 
 .sticky .s-header__content .btn:hover,
 .sticky .s-header__content .btn:focus {
-    background-color: white !important;
-    border-color: white !important;
-    color: silver;
+    background-color: #FF6969 !important;
+    border-color: #FF6969 !important;
+    color: var(--color-gray-18);
 }
 
 .sticky .s-header__content .btn:hover svg path,
@@ -3318,8 +3318,8 @@ input::-moz-focus-inner {
     .s-header.sticky .s-header__content .btn:focus,
     .s-header .s-header__content .btn:hover,
     .s-header .s-header__content .btn:focus {
-        background-color: white !important;
-        border-color: white !important;
+        background-color: #FF6969 !important;
+        border-color: #FF6969 !important;
         color: black;
     }
     .s-header.sticky .s-header__content .btn:hover svg path,
@@ -3330,7 +3330,7 @@ input::-moz-focus-inner {
     }
     .s-header__content {
         display: block;
-        background-color: var(--color-gray-19);
+        background-color: #14171B;
         height: auto;
         width: 100%;
         padding: calc(5 * var(--space)) 6rem var(--vspace-2);
